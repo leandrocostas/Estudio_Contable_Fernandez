@@ -1,0 +1,232 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Nav */
+
+.nav-primario {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo-nav {
+  width: 360px;
+  height: 105px;
+  margin-left: 25px;
+}
+
+/* .links-contenedor {
+    margin-left: 250px;
+} */
+
+.inicio-azul {
+  color: blue !important;
+}
+
+.ul-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 15px;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+  text-decoration: double;
+}
+
+.nav-secundario {
+  background-color: rgba(214, 206, 206, 0.507);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+.datos {
+  margin-bottom: 0px;
+  margin-left: 110px;
+}
+
+.div-redes {
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.logo-instagram,
+.logo-facebook {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* Main */
+
+.carousel-tamaño {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+}
+
+.h1-carousel {
+  font-size: 75px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.884);
+}
+
+.p-carousel {
+  font-size: 35px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.884);
+}
+
+.btn-carousel {
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.884);
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.custom-caption {
+  animation: slide-in 2s forwards;
+}
+
+/* Section */
+
+.seccion1 {
+  display: block;
+  text-align: center;
+}
+
+.titulo-seccion {
+  margin-top: 60px;
+  margin-left: 350px;
+  margin-right: 350px;
+  line-height: 1.5;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.titulo-seccion {
+  animation: fade-in 3.5s forwards;
+}
+
+.seccion2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch; 
+  margin-top: 75px;
+  width: 100%;
+  height: 320px;
+}
+
+/* div contenedores */
+
+.certificacion {
+  display: flex;
+  width: 380px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.miembro {
+  display: flex;
+  width: 380px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.partner {
+  display: flex;
+  width: 380px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* imagenes */
+
+.logo-profesional {
+  width: 200px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+
+.logo-linkxar {
+  width: 220px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+
+.logo-ramco {
+  width: 130px;
+  height: 30px;
+  margin-bottom: 65px;
+}
+
+.logo-contenedor-certificacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-contenedor-linkxar {
+  display: flex;
+ 
+}
+
+.logo-contenedor-ramco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+
+.contenedor-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(214, 206, 206, 0.507);
+}
+
+.logo-footer {
+  width: 300px;
+  height: 150px;
+}
+
+.direcciones-footer{
+  margin-top: 10px;
+}
