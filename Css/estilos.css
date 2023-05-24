@@ -230,3 +230,94 @@ a {
 .direcciones-footer{
   margin-top: 10px;
 }
+
+/* SERVICIOS - SECCION MAIN */
+
+.titulo-seccion-main{
+  background-color: rgba(214, 206, 206, 0.507);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.contenedor-servicios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-servicios h3{
+  padding: 35px;
+  font-weight: bold;
+}
+
+.contenedor-servicios p{
+  margin: auto;
+  padding: 5px 450px;
+  text-align: center;
+}
+
+.fa-solid {
+  height: 100px;
+}
+
+.contenedor-iconos{
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.contenedor-iconos .primera-fila{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 80px;
+}
+
+
+.contenedor-iconos .segunda-fila{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 100px;
+}
+
+.contenedor-iconos .iconos-texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+}
+
+.contenedor-iconos img{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.contenedor-iconos h5{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* SECCION NOSOTROS */
+
+
+.parrafo-estudio{
+  margin: 40px 150px;
+}
+
+.parrafo-ciudad {
+  display: flex;  
+  gap: 30px;
+  margin: 40px 150px;
+}
+
+
+.ciudad-imagen img {
+  width: 100vh;
+  height: 50vh;
+  border-radius: 20px 0px 20px 0px;
+}
+
